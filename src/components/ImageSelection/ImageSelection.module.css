@@ -1,0 +1,28 @@
+.image_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.new_img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  padding: 10px;
+}
+.clear {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: #f77f00;
+  transition: all 0.3s;
+}
+.clear:hover {
+  background-color: #d62828;
+}
